@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "account_type": "Personal",
+      "name": "Ama Mensah",
+      "phone": "0240000000",
+      "pin_hash": "ab9ccc6fda317221d3012895bc9e0a0c44c095115402104eaa94d8c5c2026584",
+      "balance": 500.0,
+      "transactions": []
+    },
+    {
+      "account_type": "Merchant",
+      "name": "Kojo's Store",
+      "phone": "0200000000",
+      "pin_hash": "6234fe4f2e505a705f1ac6eed0dc71cefd71667a4b050d49990528df4eea5655",
+      "balance": 1250.0,
+      "transactions": []
+    },
+    {
+      "account_type": "Personal",
+      "name": "Benjamin Agalisi",
+      "phone": "0534579765",
+      "pin_hash": "525d2310752af6961171e238084ad1a018f43af23990473a7255e2aca49d68b5",
+      "balance": 200.0,
+      "transactions": [
+        {
+          "kind": "Deposit",
+          "amount": 100.0,
+          "fee": 0.0,
+          "details": "Funds added to wallet",
+          "reference": "F30A99E4",
+          "status": "SUCCESS",
+          "timestamp": "2026-11-25 04:01:03"
+        },
+        {
+          "kind": "Deposit",
+          "amount": 100.0,
+          "fee": 0.0,
+          "details": "Funds added to wallet",
+          "reference": "37190714",
+          "status": "SUCCESS",
+          "timestamp": "2026-11-25 04:01:13"
+        },
+        {
+          "kind": "Deposit",
+          "amount": 10.0,
+          "fee": 0.0,
+          "details": "Funds added to wallet",
+          "reference": "1887B91A",
+          "status": "SUCCESS",
+          "timestamp": "2026-11-25 04:01:37"
+        },
+        {
+          "kind": "Transfer sent",
+          "amount": 10.0,
+          "fee": 0.0,
+          "details": "To 0556741257 via MTN (recipient is not registered in this app; simulated only)",
+          "reference": "0A92EBCA",
+          "status": "SUCCESS",
+          "timestamp": "2026-11-25 04:38:49"
+        }
+      ]
+    }
+  ]
+}
